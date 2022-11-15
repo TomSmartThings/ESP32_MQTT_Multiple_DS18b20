@@ -1,5 +1,7 @@
 /*
-Thankyou to the work done by others including Rui Santos. I for some reason couldn't find any guide about publishing each DS18b20 as it's individual topic, rather than outputting all sensors as an average. After much digging this is what I've come up with. Hopefully this makes things much quicker for someone else. You will need the libraries DallasTemperature, OneWire and AsyncMqttClient for this to work.   
+Thankyou to the work done by others including Rui Santos. I for some reason couldn't find any guide about publishing each DS18b20 as it's individual topic 
+rather than outputting all sensors as an average. After much digging this is what I've come up with. Hopefully this makes things much quicker for someone 
+else. You will need the libraries DallasTemperature, OneWire and AsyncMqttClient for this to work.   
 */
 
 #include <WiFi.h>
