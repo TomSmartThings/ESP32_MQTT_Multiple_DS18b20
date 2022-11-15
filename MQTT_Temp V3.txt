@@ -154,9 +154,9 @@ void loop() {
     //temp = sensors.getTempFByIndex(0); 
     
     /* 
-    Below are the MQTT topics. In short it floats the value of sensor1, then uses the MQTT Client to publish this reading to the assigned MQTT topic.      
-    It then prints the temperature as an output for the serial monitor. As long as you correctly Define the MQTT topics and assign the relevant
-    sensor addresses you can duplicate these topics for as many sensors as you wish
+    Below are the MQTT topics. In short it floats the value of a sensor in Celcius, then uses the MQTT Client to publish this reading to 
+    the assigned MQTT topic. It then prints the temperature as an output for the serial monitor. As long as you correctly Define the 
+    MQTT topics and assign the relevant sensor addresses you can duplicate these topics for as many sensors as you wish
     */
     
     
